@@ -13,7 +13,7 @@ while True:
         break
     try:
         n = int(n)
-        if n <= 0:
+        if n <= 1:
             print("Vui long nhap so nguyen duong!")
             continue
     except Exception as e:
